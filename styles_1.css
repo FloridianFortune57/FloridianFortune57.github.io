@@ -4,18 +4,28 @@
  padding: 0;
  box-sizing: border-box;
 }
-div{
+
+.cream{
 	background-color: #FFF2D7;
+	color: black;
+	font-family: 'Cutive Mono';
+	text-align: center;
 	margin-right: 0px;
 	position: absolute;
 	top:0px;
 	right: 0px;
-	width: 600px;
+	width: 650px;
 	height: 600px;
 }
-
+#topLeftImage {
+            position: absolute; /* Set position to absolute */
+            top: 0px; /* Place the image at the top */
+            left: 0px; /* Place the image at the left */
+            width: 800px;
+			height: 600px;
+}
 body {
- font-family: 'georgia', sans-serif;
+ font-family: 'Cutive Mono;';
  line-height: 1.6;
  padding: 20px;
  background-color: #981A31;
