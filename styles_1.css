@@ -4,11 +4,21 @@
  padding: 0;
  box-sizing: border-box;
 }
+div{
+	background-color: #FFF2D7;
+	margin-right: 0px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 600px;
+	height: 600px;
+}
+
 body {
  font-family: 'georgia', sans-serif;
  line-height: 1.6;
  padding: 20px;
- background-color: #FFE1B4;
+ background-color: #981A31;
 }
 .header {
  text-align: center;
@@ -36,3 +46,4 @@ footer {
  text-align: center;
  margin-top: 20px;
 }
+
