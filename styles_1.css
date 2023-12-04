@@ -4,10 +4,17 @@
  padding: 0;
  box-sizing: border-box;
 }
-.name{
+.textbox{
 	position: absolute;
-	top: 8px;
-	left:16px;
+	top: 100px;
+	left:600px;
+}
+.rightsidetext{
+	position: absolute;
+	top: 25px;
+	right:330px;
+	width:600px ;
+
 }
 .cream{
 	background-color: #FFF2D7;
@@ -29,10 +36,15 @@
 			height: 600px;
 }
 body {
- font-family: 'Cutive Mono;';
+ font-family: 'Cutive Mono';
  line-height: 1.6;
  padding: 20px;
  background-color: #981A31;
+}
+
+main {
+	font-family: 'Cutive Mono';
+	display: flex;
 }
 .header {
  text-align: center;
@@ -47,7 +59,15 @@ h1 {
  margin-top: 10px;
 }
 .bio, .projects {
+ font-family: 'Cutive Mono';
+ line-height: 1.6;
+ color: #FFF2D7;
  margin-bottom: 20px;
+
+}
+
+.projects a {
+color: #FFF2D7	
 }
 a {
  color: #333;
@@ -60,4 +80,7 @@ footer {
  text-align: center;
  margin-top: 20px;
 }
+.bottomcontainer{
+	text-align: center;
 
+}
